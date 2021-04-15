@@ -1,0 +1,111 @@
+.seccion__imagen{
+    width: 100%;
+}
+.seccion__principal{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 30px 0 30px;
+    align-items: flex-end;
+    
+}
+
+.seccion__card{
+    padding: 120px 100px 100px 100px;
+    font-family: Arial;
+}
+.seccion__titulo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.seccion__parrafo{
+    padding: 10px 0;
+}
+.seccion__secundario{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 30px 0 30px;
+    align-items: center;
+}
+.seccion--espaciado{
+    padding: 30px 0 120px 0;
+}
+.seccion__tercero{
+    padding: 30px;
+    display: flex;
+}
+.seccion__contenido{
+    margin: 30px 10px 10px 10px;
+    padding: 10px 100px 0 0;
+    width: 55%;
+}
+.seccion__preguntas{
+    position: relative;
+}
+.seccion__label{
+    position: relative;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: bold;
+}
+.seccion__label::after{
+    content: '+';
+    position: absolute;
+    right: 10px;
+}
+.seccion__texto{
+    margin: 5px;
+    font-family: 'Roboto';
+    overflow:hidden;
+    height: 0;
+}
+.seccion__preguntas.active .seccion__texto{
+    width: 100%;
+    height: 140px;
+}
+.seccion__preguntas.active .seccion__label::after{
+    content: '-';
+}
+.seccion__personaje{
+    left: 0;
+}
+.seccion__nombre{
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.seccion__perfil{
+    display: flex;
+}
+.seccion__foto{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: #333;
+}
+.seccion__parrafos{
+    align-self: center;
+}
+.seccion__parrafos p{
+    font-family: Arial;
+    padding: 10px;
+    font-weight: bold;
+}
+.seccion__episodios{
+    padding: 10px;
+
+}
+.seccion__capitulo{
+    border-radius: 40%;
+    background: #00FFFF;
+    padding: 2px;
+    border: 1px solid #333;
+    text-decoration: none;
+    font-family: Arial;
+    color: #111;
+}
+.seccion__capitulo:hover{
+    background: rgba(00,23,41,.3);
+}

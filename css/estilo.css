@@ -1,0 +1,47 @@
+@import url('secciones.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    src: url(../assets/Fonts/MuseoSans_500.otf);
+    font-family: 'Museo-Sans';
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/Fonts/Roboto-Light.ttf);
+}
+.navegador__principal{
+    justify-content: center;
+    display: flex;
+    background: #EBA904;
+}
+.navegador__texto{
+    font-size: 14px;
+    padding: 14px 0;
+    color: #fff;
+    font-family: 'Museo-Sans';
+}
+.navegador__secundario{
+    padding: 30px 0 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.navegador__link{
+    padding: 1px 2px;
+    text-decoration: none;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.navegador__icons{
+    cursor: pointer;
+    font-size: 30px;
+    padding: 0 10px;
+}
+.navegador__tercero{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 20px 0;
+}
